@@ -7,9 +7,12 @@
   "private": true,
   "dependencies": {
     "angular": "~1.5.0",
+    "angular-bootstrap": "latest",
     "angular-route": "~1.5.0",
     "angular-loader": "~1.5.0",
     "angular-mocks": "~1.5.0",
+    "bootstrap": "latest",
+    "d3": "latest",
     "html5-boilerplate": "^5.3.0"
   }
 }

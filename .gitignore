@@ -1,7 +1,16 @@
 logs/*
 !.gitkeep
-node_modules/
-bower_components/
 tmp
 .DS_Store
 .idea
+*.iml
+
+#ignore dependencies
+node_modules/
+bower_components/
+
+#ignore compiled CSS
+app/css/*.css
+
+#npm log
+npm-debug.log
