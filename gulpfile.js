@@ -11,7 +11,7 @@ gulp.task('build-less', function(){
 });
 
 gulp.task('watch', function() {
-    gulp.watch('./less/*.less', ['less']);
+    gulp.watch('./less/*.less', ['build-less']);
 });
 
 gulp.task('connect', function() {
